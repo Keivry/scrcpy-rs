@@ -1,0 +1,16 @@
+[package]
+name = "scrcpy"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Scrcpy wire-protocol types and control primitives for Rust."
+repository = "https://github.com/Keivry/scrcpy-rs"
+homepage = "https://github.com/Keivry/scrcpy-rs"
+keywords = ["scrcpy", "wire-protocol", "control", "rust"]
+categories = ["network-programming"]
+
+[dependencies]
+byteorder = "1.5"
+parking_lot = "0.12"
+thiserror = "2"
+tracing = "0.1"
