@@ -10,7 +10,7 @@ This crate owns the **protocol layer** only: packet types, H.264 stream parsing,
 
 ```toml
 [dependencies]
-scrcpy = { path = "3rd-party/scrcpy-rs" }
+scrcpy = "0.1"
 ```
 
 ## Public API
