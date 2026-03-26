@@ -1,4 +1,4 @@
-# scrcpy-rs Protocol Notes
+# scrcpy Protocol Notes
 
 This document describes the scrcpy protocol behavior that this crate implements.
 It is not a full upstream scrcpy specification — only the wire-format details and
@@ -155,26 +155,26 @@ All integer payloads are serialized big-endian.
 
 `src/protocol/control.rs` keeps the upstream type numbers 0 through 17:
 
-| Type | Name |
-| --- | --- |
-| 0 | InjectKeycode |
-| 1 | InjectText |
-| 2 | InjectTouchEvent |
-| 3 | InjectScrollEvent |
-| 4 | BackOrScreenOn |
-| 5 | ExpandNotificationPanel |
-| 6 | ExpandSettingsPanel |
-| 7 | CollapsePanels |
-| 8 | GetClipboard |
-| 9 | SetClipboard |
-| 10 | SetDisplayPower |
-| 11 | RotateDevice |
-| 12 | UhidCreate |
-| 13 | UhidInput |
-| 14 | UhidDestroy |
-| 15 | OpenHardKeyboardSettings |
-| 16 | StartApp |
-| 17 | ResetVideo |
+| Type | Name                     |
+| ---- | ------------------------ |
+| 0    | InjectKeycode            |
+| 1    | InjectText               |
+| 2    | InjectTouchEvent         |
+| 3    | InjectScrollEvent        |
+| 4    | BackOrScreenOn           |
+| 5    | ExpandNotificationPanel  |
+| 6    | ExpandSettingsPanel      |
+| 7    | CollapsePanels           |
+| 8    | GetClipboard             |
+| 9    | SetClipboard             |
+| 10   | SetDisplayPower          |
+| 11   | RotateDevice             |
+| 12   | UhidCreate               |
+| 13   | UhidInput                |
+| 14   | UhidDestroy              |
+| 15   | OpenHardKeyboardSettings |
+| 16   | StartApp                 |
+| 17   | ResetVideo               |
 
 ### Messages currently serialized
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT OR Apache-2.0
 
-//! `scrcpy-rs` — scrcpy protocol types and control primitives.
+//! `scrcpy-protocol` — scrcpy protocol types and control primitives.
 //!
 //! This crate owns the wire protocol (video/audio/control packets),
 //! H.264 stream parsing, and the [`ControlSender`] abstraction.

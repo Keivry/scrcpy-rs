@@ -1,11 +1,11 @@
 [package]
-name = "scrcpy"
+name = "scrcpy-protocol"
 version = "0.1.1"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 description = "Scrcpy wire-protocol types and control primitives for Rust."
-repository = "https://github.com/Keivry/scrcpy-rs"
-homepage = "https://github.com/Keivry/scrcpy-rs"
+repository = "https://github.com/Keivry/scrcpy-protocol"
+homepage = "https://github.com/Keivry/scrcpy-protocol"
 keywords = ["scrcpy", "wire-protocol", "control", "rust"]
 categories = ["network-programming"]
 
